@@ -3,6 +3,7 @@ import TripBoard from './pages/TripBoard.vue'
 import TripList from './pages/TripList.vue'
 import TripDetail from './pages/TripDetail.vue'
 import FareMeter from './pages/FareMeter.vue'
+import Vehicles from './pages/Vehicles.vue'
 import TariffRules from './pages/TariffRules.vue'
 import NightCompare from './pages/NightCompare.vue'
 import RunHistory from './pages/RunHistory.vue'
@@ -15,6 +16,7 @@ export default createRouter({
     { path: '/trips', component: TripList },
     { path: '/trips/:id', component: TripDetail },
     { path: '/meter', component: FareMeter },
+    { path: '/vehicles', component: Vehicles },
     { path: '/tariff', component: TariffRules },
     { path: '/night', component: NightCompare },
     { path: '/history', component: RunHistory },

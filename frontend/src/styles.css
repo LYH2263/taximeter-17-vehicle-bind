@@ -14,3 +14,8 @@ th,td { border-bottom:1px solid #443820; padding:0.35rem; }
 .hero-num { font-size:2rem; color:var(--accent); font-weight:700; }
 input { background:#120e06; border:1px solid var(--muted); color:var(--text); padding:0.3rem; }
 a { color: var(--accent); }
+.err { color:#ff7a5c; }
+.muted { color: var(--muted); }
+.tag-on { color:#7ee081; font-weight:700; }
+.tag-off { color: var(--muted); }
+select { background:#120e06; border:1px solid var(--muted); color:var(--text); padding:0.3rem; }

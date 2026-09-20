@@ -6,6 +6,7 @@
         <router-link to="/">行程板</router-link>
         <router-link to="/trips">列表</router-link>
         <router-link to="/meter">打表</router-link>
+        <router-link to="/vehicles">车辆</router-link>
         <router-link to="/tariff">运价</router-link>
         <router-link to="/night">昼夜对比</router-link>
         <router-link to="/history">记录</router-link>

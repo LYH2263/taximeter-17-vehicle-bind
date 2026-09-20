@@ -5,6 +5,7 @@ class FareRequest(BaseModel):
     slow_min: float = Field(ge=0)
     night: bool = False
     trip_id: int | None = None
+    vehicle_id: int | None = None
     persist: bool = True
 
 class CompareRequest(BaseModel):
